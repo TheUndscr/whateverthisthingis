@@ -32,6 +32,8 @@ button {
 
     background-color: #3c3841;
     border-width: 0px;
+    border-color: #ebdbff;
+    border-style: solid;
     color: #ebdbff;
 
     width: 70px;
@@ -40,6 +42,7 @@ button {
 
 button:hover {
     font-size: 110%;
+    border-width: 5px;
 }
 
 button:active {
@@ -49,4 +52,8 @@ button:active {
 .done {
     background-color: rgb(255, 125, 125);
     color: rgb(40, 31, 31);
+}
+
+.done:hover {
+    border-color: rgb(255, 180, 180);
 }

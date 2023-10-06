@@ -36,7 +36,7 @@ function Cool(props: {amount: number}) {
 function App() {
   return (
     <>
-      <Cool amount={1500}></Cool>
+      <Cool amount={2000}></Cool>
     </>
   )
 }
