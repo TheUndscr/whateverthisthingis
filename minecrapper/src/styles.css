@@ -46,7 +46,8 @@ button:hover {
 }
 
 button:active {
-    scale: 90%;
+    border-width: 10px;
+    font-size: 70%;
 }
 
 .done {
